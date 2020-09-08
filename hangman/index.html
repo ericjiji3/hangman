@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+   <head>
+     <title>Hangman Game</title>
+     <link rel = "icon" href = "/assets/icon.png"/>
+     <link rel="stylesheet" href="/styles.css">
+     <meta name = "description" content = "a game of hangman!" />
+     <script src = "script.js" defer></script>
+   </head>
+   <body>
+     <h1 id = "header"></h1>
+     <form id = "form">
+       <input type = "text" onfocus = "this.value=''" placeholder="Enter a word" id = "userinput" />
+       <button type = "button" id = "button" name = "button">
+          Submit
+       </button>
+       <button type = "button" id = "wordButton" name = "button">
+          Guess the Word
+       </button>
+       <button type = "button"  class = "resetButton" id = "resetButton" name = "button">
+          Restart
+       </button>
+     </form>
+     <div class = "parent">
+       <img src = "/assets/Gallows.png" height = "350" width = "350"/>
+       <img src = "/assets/head.png" id = "headImage" class = "head-img"/ height = "75" width = "75">
+       <img src = "/assets/torso.png" id = "torsoImage" class = "torso-img"/ height = "120" width = "120">
+       <img src = "/assets/rightArm.png" id = "rightArmImage" class = "rightArm-img"/ height = "75" width = "75">
+       <img src = "/assets/leftArm.png" id = "leftArmImage" class = "leftArm-img"/ height = "75" width = "100">
+       <img src = "/assets/rightLeg.png" id = "rightLegImage" class = "rightLeg-img"/ height = "100" width = "75">
+       <img src = "/assets/leftLeg.png" id = "leftLegImage" class = "leftLeg-img"/ height = "100" width = "75">
+     </div>
+     <h1 id = "censored"></h1>
+     <h1 id = "wrongGuesses"></h1>
+   </body>
+</html>

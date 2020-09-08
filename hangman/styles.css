@@ -1,0 +1,55 @@
+.parent{
+    position: relative;
+}
+.head-img{
+    position: absolute;
+    top: 50px;
+    left: 255px;
+    visibility: hidden;
+
+
+}
+
+.torso-img{
+    position: absolute;
+    top: 122px;
+    left: 230px;
+    visibility: hidden;
+
+}
+
+.rightArm-img{
+    position: absolute;
+    top: 165px;
+    left: 172px;
+    visibility: hidden;
+
+}
+
+.leftArm-img{
+    position: absolute;
+    top: 143px;
+    left: 325px;
+    visibility: hidden;
+}
+
+.rightLeg-img{
+    position: absolute;
+    top: 230px;
+    left: 220px;
+    visibility: hidden;
+
+}
+
+.leftLeg-img{
+    position: absolute;
+    top: 235px;
+    left: 300px;
+    visibility: hidden;
+
+}
+
+button.resetButton{
+    position: absolute;
+    visibility: hidden;
+}
